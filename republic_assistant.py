@@ -51,6 +51,11 @@ def assistant(data):
         print(tree)
         speak(tree)
 
+    if "national Fruit" in data:
+        fru="Mango"
+        print(fru)
+        speak(fru)
+
     if "motto" in data:
         m="satyameva Jeyate "
         print(m)
